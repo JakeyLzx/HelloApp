@@ -11,4 +11,5 @@ HEADERS += ./HelloApp.h
 SOURCES += ./HelloApp.cpp \
     ./main.cpp
 FORMS += ./HelloApp.ui
+TRANSLATIONS += ./helloapp_zh.ts
 RESOURCES += HelloApp.qrc

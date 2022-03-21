@@ -13,4 +13,5 @@ OBJECTS_DIR += debug
 UI_DIR += .
 RCC_DIR += .
 include(HelloApp.pri)
+TRANSLATIONS += helloapp_zh.ts
 win32:RC_FILE = HelloApp.rc

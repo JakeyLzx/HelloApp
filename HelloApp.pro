@@ -5,13 +5,12 @@
 TEMPLATE = app
 TARGET = HelloApp
 DESTDIR = ./x64/Debug
-INCLUDEPATH = ./x64/Debug
 CONFIG += debug
 LIBS += -L"."
 DEPENDPATH += .
 MOC_DIR += .
 OBJECTS_DIR += debug
-UI_DIR += .
+UI_DIR += ./x64/Debug/uic
 RCC_DIR += .
 include(HelloApp.pri)
 TRANSLATIONS += helloapp_zh.ts

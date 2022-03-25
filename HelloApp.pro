@@ -5,6 +5,7 @@
 TEMPLATE = app
 TARGET = HelloApp
 DESTDIR = ./x64/Debug
+INCLUDEPATH = ./x64/Debug
 CONFIG += debug
 LIBS += -L"."
 DEPENDPATH += .

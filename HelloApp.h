@@ -1,7 +1,12 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
-#include "ui_HelloApp.h"
+//#include "ui_HelloApp.h"
+
+namespace Ui
+{
+	class HelloAppClass;
+}
 
 class HelloApp : public QMainWindow
 {
